@@ -20,7 +20,14 @@ yarn workspace example develop
 ├── README.md
 ├── packages
 │   └── gatsby-theme-material-ui
+│       ├── src
+│       │   └── providers
+│       │       └── theme-provider.js
+│       ├── gatsby-config.js
+│       ├── gatsby-browser.js
+│       ├── gatsby-ssr.js
 │       ├── index.js
+│       ├── wrap-root.js
 │       └── package.json
 ├── example
 │   ├── README.md
