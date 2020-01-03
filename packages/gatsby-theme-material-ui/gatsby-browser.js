@@ -1,3 +1,3 @@
-const { wrapRootElement } = require('./wrap-with-context')
+const { wrapRootElement } = require('./wrap-root')
 
 exports.wrapRootElement = wrapRootElement
