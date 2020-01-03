@@ -1,6 +1,6 @@
 # Loki
 
-Loki is cross.team's Gatsby Theme workspace.
+Loki is cross.team's [Gatsby Theme](https://www.gatsbyjs.org/docs/themes/) workspace.
 - The `packages` directory contains all of the various themes that will be held in this repo. Right now it only contains the `gatsby-theme-material-ui` theme.
 - The `example` directory contains an example of a site that would install our Gatsby themes.
 
