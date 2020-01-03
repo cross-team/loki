@@ -1,3 +1,7 @@
 module.exports = {
-  plugins: ['gatsby-theme-material-ui'],
+  plugins: [
+    {
+      resolve: 'gatsby-theme-material-ui',
+    }
+  ],
 }

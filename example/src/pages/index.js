@@ -1,3 +1,4 @@
-import React from "react"
+import React from 'react'
+import { Typography } from '@material-ui/core'
 
-export default () => <div>Homepage in a user's site</div>
+export default () => <Typography variant='h1'>Example Page</Typography>
