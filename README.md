@@ -21,8 +21,7 @@ yarn workspace example develop
 ├── packages
 │   └── gatsby-theme-material-ui
 │       ├── src
-│       │   └── providers
-│       │       └── theme-provider.js
+│       │   └── theme-provider.js
 │       ├── gatsby-config.js
 │       ├── gatsby-browser.js
 │       ├── gatsby-ssr.js
@@ -34,6 +33,10 @@ yarn workspace example develop
 │   ├── gatsby-config.js
 │   ├── package.json
 │   └── src
+│       ├── gatsby-theme-material-ui
+│       │   └── theme-provider.js
+│       └── pages
+│           └── index.js
 ├── package.json
 └── yarn.lock
 ```
