@@ -20,6 +20,7 @@ yarn workspace example develop
 ├── README.md
 ├── packages
 │   └── gatsby-theme-material-ui
+│       ├── index.js
 │       └── package.json
 ├── example
 │   ├── README.md
@@ -28,8 +29,6 @@ yarn workspace example develop
 │   └── src
 ├── package.json
 └── yarn.lock
-
-3 directories, 10 files
 ```
 
 ### `gatsby-theme-material-ui`
