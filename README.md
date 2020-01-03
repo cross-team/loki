@@ -45,13 +45,14 @@ yarn workspace example develop
 
 ### `example`
 
-This is an example usage of your themes. It should look the same as the
-site of someone who installed and used your theme from npm.
+This is an example usage of your themes.
 
 - `example/`
   - `gatsby-config.js`: Specifies which theme to use and any other one-off config a site might need.
   - `src/`: Source code such as one-off pages or components that might live in
     a user's site.
+    - `pages/index.js`: The home page of our example. It renders a MUI header using the assets from gatsby-theme-material-ui
+    - `gatsby-theme-material-ui/theme-provider.js`: The `src/gatsby-theme-material-ui/` directory allows us to override the `theme-provider.js` file in the original theme with one of our own through a process called shadowing. You can learn more about shadowing (here)[https://www.gatsbyjs.org/docs/themes/shadowing/].
 
 You can run the example with:
 
