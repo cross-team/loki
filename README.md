@@ -36,7 +36,7 @@ yarn workspace example develop
 
 ### `example`
 
-This is an example usage of your theme. It should look the same as the
+This is an example usage of your themes. It should look the same as the
 site of someone who installed and used your theme from npm.
 
 - `example/`
