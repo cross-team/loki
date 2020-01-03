@@ -1,7 +1,7 @@
 import React from "react"
 import { createMuiTheme, ThemeProvider } from '@material-ui/core'
 
-const theme = createMuiTheme(/** You can customize your theme here! */)
+const theme = createMuiTheme()
 
   const Theme = ({ path, children }) => {
     return (

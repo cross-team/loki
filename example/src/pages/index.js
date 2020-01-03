@@ -1,4 +1,10 @@
 import React from 'react'
-import { Typography } from '@material-ui/core'
+import { Typography, AppBar, Toolbar } from '@material-ui/core'
 
-export default () => <Typography variant='h1'>Example Page</Typography>
+export default () => (
+  <AppBar>
+    <Toolbar>
+      <Typography variant='h5'>Example Page</Typography>
+    </Toolbar>
+  </AppBar>
+)
