@@ -1,0 +1,37 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn workspace gatsby-theme-eslint add eslint -D
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/marcellopaiva/Code/git/loki/packages/gatsby-theme-eslint/package.json: Unexpected token } in JSON at position 129
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "gatsby-theme-eslint",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Marcello Paiva",
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
