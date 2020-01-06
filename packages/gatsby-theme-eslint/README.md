@@ -1,6 +1,6 @@
 # gatsby-theme-eslint
 
-The `gatsby-theme-material-ui` package installs the following eslint packages to your project:
+The `gatsby-theme-eslint` package installs the following eslint packages to your project:
 ```
 eslint
 eslint-config-prettier
