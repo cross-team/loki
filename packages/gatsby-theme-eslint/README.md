@@ -1,6 +1,6 @@
-# gatsby-theme-eslint
+# @cross.team/gatsby-theme-eslint
 
-The `gatsby-theme-eslint` package installs the following eslint packages to your project:
+The `@cross.team/gatsby-theme-eslint` package installs the following eslint packages to your project:
 ```
 eslint
 eslint-config-prettier
@@ -21,20 +21,20 @@ eslint-plugin-standard
 
 ```
 // with npm
-npm install gatsby-theme-eslint
+npm install @cross.team/gatsby-theme-eslint
 
 // with yarn
-yarn add gatsby-theme-eslint
+yarn add @cross.team/gatsby-theme-eslint
 ```
 
 ## How to use
 
-Make sure to add `gatsby-theme-eslint` to the `plugins` array in your `gatsby-config.js` file:
+Make sure to add `@cross.team/gatsby-theme-eslint` to the `plugins` array in your `gatsby-config.js` file:
 
 ```javascript
 module.exports = {
   plugins: [
-    'gatsby-theme-eslint',
+    '@cross.team/gatsby-theme-eslint',
   ],
 }
 ```
