@@ -28,6 +28,8 @@ If you want to add one of the themes you've created in the `packages` directory 
 
 ```yarn workspace example add "gatsby-theme-material-ui@*"```
 
+Whenever you install a Gatsby theme, you need to make sure to also add that theme to the `plugins` array in your app's `gatsby-config.js`.
+
 ### Publishing Themes
 
 Before you can publish a theme, you must make sure you are logged into npm in your terminal. You can check this by running the command:
