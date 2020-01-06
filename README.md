@@ -52,32 +52,6 @@ If you have the right permissions to the organization namespace you added to the
 
 ## Layout
 
-```shell
-.
-├── README.md
-├── packages
-│   └── gatsby-theme-material-ui
-│       ├── src
-│       │   └── theme-provider.js
-│       ├── gatsby-config.js
-│       ├── gatsby-browser.js
-│       ├── gatsby-ssr.js
-│       ├── index.js
-│       ├── wrap-root.js
-│       └── package.json
-├── example
-│   ├── README.md
-│   ├── gatsby-config.js
-│   ├── package.json
-│   └── src
-│       ├── gatsby-theme-material-ui
-│       │   └── theme-provider.js
-│       └── pages
-│           └── index.js
-├── package.json
-└── yarn.lock
-```
-
 ### `example`
 
 This is an example usage of your themes.
