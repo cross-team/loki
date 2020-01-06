@@ -28,6 +28,26 @@ If you want to add one of the themes you've created in the `packages` directory 
 
 ```yarn workspace example add "gatsby-theme-material-ui@*"```
 
+### Publishing Themes
+
+Before you can publish a theme, you must make sure you are logged into npm in your terminal. You can check this by running the command:
+
+```npm whoami```
+
+If you are logged in, npm will return your username, if not it will return an error telling you that you must be logged in, which you can do with the command:
+
+```npm adduser```
+
+This command will ask you for your npm username, password, and the email associated with the account. Once you do that you can run `npm whoami` again to make sure that your login was successful.
+
+Once you're logged in, go to the `package.json` file of the theme that you want to publish so that we can namespace it. Find the name field and prepend the theme name with the user or organization it will be published under, in this case it is `@cross.team/`. So the name field of your theme's `package.json` should look something like this: `"@cross.team/gatsby-theme-my-theme"`.
+
+Finally. after you save the changes to your `package.json`, go to your theme's directory in the terminal and publish the package by running:
+
+```npm publish --access public```
+
+If you have the right permissions to the organization namespace you added to theme's `package.json` your package will be successfully published.
+
 ## Layout
 
 ```shell
