@@ -1,11 +1,12 @@
 {
   "name": "@cross.team/gatsby-theme-material-ui",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "author": "Marcello Paiva",
   "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.8.2",
+    "@material-ui/icons": "^4.5.1",
     "gatsby-plugin-material-ui": "^2.1.6"
   }
 }

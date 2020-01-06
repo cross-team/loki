@@ -1,6 +1,6 @@
 # @cross.team/gatsby-theme-material-ui
 
-The `@cross.team/gatsby-theme-material-ui` package installs `@material-ui/core` and `gatsby-plugin-material-ui` and wraps your application in a Material-UI ThemeProvider, which is available to be shadowed by the example site or any other application that installs this package.
+The `@cross.team/gatsby-theme-material-ui` package installs `@material-ui/core`. `@material-ui/icons`, and `gatsby-plugin-material-ui` and wraps your application in a Material-UI ThemeProvider, which is available to be shadowed by the example site or any other application that installs this package.
 
 ## Installation
 
