@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-eslint",
+  "name": "@cross.team/gatsby-theme-eslint",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Marcello Paiva",

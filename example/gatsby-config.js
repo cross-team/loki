@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    'gatsby-theme-material-ui',
-    'gatsby-theme-eslint'
+    '@cross.team/gatsby-theme-material-ui',
+    '@cross.team/gatsby-theme-eslint'
   ],
 }
