@@ -1,5 +1,5 @@
 {
-  "name": "@cross.team/gatsby-theme-material-ui",
+  "name": "gatsby-theme-material-ui",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Marcello Paiva",
