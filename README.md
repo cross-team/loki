@@ -14,21 +14,23 @@ When adding a new theme to the `packages` directory you must begin the name of i
 
 ```yarn init```
 
-You will get a series of prompts which you can accept the default options for all of by pressing "enter", except for author or maybe description if you want to set those, but you don't have to.
+The first prompt you get in a series of prompts will be the name for the `package.json`. For our themes, they will be published to the cross.team npm organization so the name in the `package.json` will be prepended with "@cross.team/". So if your theme is `gatsby-theme-my-theme` then you would write `@cross.team/gatsby-theme-my-theme` as the name for your `package.json`.
+ 
+For the rest of the prompts you can accept the default options by pressing "enter", except for author or maybe description if you want to set those, but you don't have to.
 
 ### Installing Dependencies
 
 When you are installing anything with yarn to any of your packages or the `example` site, there is a specific way you need to run the command. When doing a `yarn add package` you must prefix the "add" with "workspace" and the name of the directory you're installing it to. So if, for instance, you were installing `@material-ui/core` to the `gatsby-theme-material-ui` package, you would go to the `packages/gatsby-theme-material-ui` directory in the terminal and run:
 
-```yarn workspace gatsby-theme-material-ui add @material-ui/core```
+```yarn workspace @cross.team/gatsby-theme-material-ui add @material-ui/core```
 
 #### Installing Local Themes
 
 If you want to add one of the themes you've created in the `packages` directory to the `example` site, then your `yarn add` command will be slightly different. You need to wrap the theme you're installing with quotes and append them with `@*` to let yarn know that it's being installed from a local package. So if you were installing the `gatsby-theme-material-ui` package to the `example` site, you would go to the `example` directory in the terminal and run:
 
-```yarn workspace example add "gatsby-theme-material-ui@*"```
+```yarn workspace example add "@cross.team/gatsby-theme-material-ui@*"```
 
-Whenever you install a Gatsby theme, you need to make sure to also add that theme to the `plugins` array in your app's `gatsby-config.js`.
+Whenever you install a Gatsby theme, you need to make sure to also add that theme to the `plugins` array in your app's `gatsby-config.js`, making sure not forget the `@cross.team/` namespace.
 
 ### Publishing Themes
 
@@ -42,13 +44,11 @@ If you are logged in, npm will return your username, if not it will return an er
 
 This command will ask you for your npm username, password, and the email associated with the account. Once you do that you can run `npm whoami` again to make sure that your login was successful.
 
-Once you're logged in, go to the `package.json` file of the theme that you want to publish so that we can namespace it. Find the name field and prepend the theme name with the user or organization it will be published under, in this case it is `@cross.team/`. So the name field of your theme's `package.json` should look something like this: `"@cross.team/gatsby-theme-my-theme"`.
-
-Finally. after you save the changes to your `package.json`, go to your theme's directory in the terminal and publish the package by running:
+Once you're logged in, go to your theme's directory in the terminal and publish the package by running:
 
 ```npm publish --access public```
 
-If you have the right permissions to the organization namespace you added to theme's `package.json` your package will be successfully published.
+If you have the right permissions to the cross.team npm organization, your package will be successfully published. If not, you should encounter a 403 error.
 
 ## Layout
 
