@@ -95,6 +95,6 @@ You can run the example with:
 yarn workspace example develop
 ```
 
-### `gatsby-theme-material-ui`
+### [`gatsby-theme-material-ui`](https://github.com/cross-team/loki/tree/master/packages/gatsby-theme-material-ui)
 
-The `gatsby-theme-material-ui` package installs `@material-ui/core` and `gatsby-plugin-material-ui` and wraps your application in a material-ui ThemeProvider, which is available to be shadowed by the `example` site or any other application that installs this package.
+### [`gatsby-theme-eslint`](https://github.com/cross-team/loki/tree/master/packages/gatsby-theme-eslint)
