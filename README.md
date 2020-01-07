@@ -72,3 +72,5 @@ yarn workspace example develop
 ### [`gatsby-theme-material-ui`](https://github.com/cross-team/loki/tree/master/packages/gatsby-theme-material-ui)
 
 ### [`gatsby-theme-eslint`](https://github.com/cross-team/loki/tree/master/packages/gatsby-theme-eslint)
+
+### [`gatsby-theme-fontawesome`](https://github.com/cross-team/loki/tree/master/packages/gatsby-theme-fontawesome)
