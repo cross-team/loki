@@ -1,16 +1,6 @@
 # @cross.team/gatsby-theme-fontawesome
 
-The `@cross.team/gatsby-theme-fontawesome` package installs the following fontawesome packages to your project and provides an API token for fontawesome pro:
-
-```
-@fortawesome/react-fontawesome
-@fortawesome/fontawesome-svg-core
-@fortawesome/free-solid-svg-icons
-@fortawesome/pro-duotone-svg-icons
-@fortawesome/pro-light-svg-icons
-@fortawesome/pro-regular-svg-icons
-@fortawesome/pro-solid-svg-icons
-```
+The `@cross.team/gatsby-theme-fontawesome` package utilizes [react-fontawesome](https://github.com/FortAwesome/react-fontawesome) to access fontawesome icons in your project. It installs all of the necessary dependencies and provides an API token for access to fontawesome pro.
 
 ## Installation
 
